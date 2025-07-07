@@ -31,14 +31,10 @@ This command sends 74 CKBytes and attaches `HelloNervos.txt` as part of the tran
 
 ![Transfer with File Attachment](./transfer_with_hello_nervos.png)
 
-### Verifying File Hash and Live Cell Data with `blake2b` and `ckb-cli`
+### Generating a Blake2b Hash for File Validation
+Using `blake2b` to hash the contents of `HelloNervos.txt` for later use in lock or type scripts.
 
-
-### Checking Live Cell Status via `rpc get_live_cell`
-
-
-### Sending a Transaction with File Attachment Using `wallet transfer`
-
+![Blake2b File Hash](./blake2b_hello_nervos_hash.png)
 
 ## What I Learned
 
