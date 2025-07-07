@@ -10,7 +10,7 @@
 ### Inspecting Cell State with `rpc get_live_cell`
 This confirms that the target cell is **live** and includes detailed info about its capacity, lock script, and output data.
 
-![Inspecting Live Cell](./Image collée.png)
+![Inspecting Live Cell](./Imagecollée.png)
 
 
 ### Verifying File Hash and Live Cell Data with `blake2b` and `ckb-cli`
