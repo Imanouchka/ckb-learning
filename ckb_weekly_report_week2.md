@@ -7,10 +7,14 @@
 - Examined transactions, determined, and validated the out points.
 - Continued the course "L1 Developer Kit" up to the **"Introduction to Capsule"** section (I skipped the Lumos programming parts).
 
-### Inspecting Cell State with `rpc get_live_cell`
-This confirms that the target cell is **live** and includes detailed info about its capacity, lock script, and output data.
+### Transferring 100,000 CKBytes Using `wallet transfer`
 
 ![Inspecting Live Cell](./Imagecollée.png)
+
+### Full Transaction Details via `rpc get_transaction`
+This output displays a successful transaction with detailed input/output structure, capacity values, lock scripts, and associated hashes.
+
+![Full Transaction Details](./get_transaction_details.png) 
 
 
 ### Verifying File Hash and Live Cell Data with `blake2b` and `ckb-cli`
