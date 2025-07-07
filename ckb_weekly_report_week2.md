@@ -21,6 +21,10 @@ The command confirms that the cell at index 0 of the given transaction is **live
 
 ![Live Cell Status - Index 0](./get_live_cell_index0.png)
 
+### Verifying Multiple Live Cells from a Single Transaction
+This shows that both output cells (index 0 and index 1) from the same transaction are **live** and contain distinct capacity values and lock scripts.
+
+![Live Cells at Index 0 and 1](./live_cells_index0_and_1.png)
 
 
 ### Verifying File Hash and Live Cell Data with `blake2b` and `ckb-cli`
