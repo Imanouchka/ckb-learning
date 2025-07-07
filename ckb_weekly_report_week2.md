@@ -1,11 +1,13 @@
-# Week 02 Report – GADDAH Amine – June 30–July 6, 2025
+# Week 02 Report – SENNARIA Imane – June 30–July 6, 2025
 
 ## What I Did
 
-- Installed all necessary tools and dependencies for running the CKB dev chain and working with `ckb-cli`.
-- Successfully sent a basic transaction and transferred **100,000 CKBytes**.
-- Examined transactions, determined, and validated the out points.
-- Continued the course "L1 Developer Kit" up to the **"Introduction to Capsule"** section (I skipped the Lumos programming parts).
+- Installed **Linux** (took me a day and a half 😄) and set up my development environment.
+- Installed all necessary tools and dependencies for running the **CKB dev chain** and working with `ckb-cli`.
+- Successfully sent a **basic transaction** and transferred **100,000 CKBytes**.
+- Examined transactions, determined, and validated **out points**.
+- Continued the **L1 Developer Kit** course up to the **"Introduction to Capsule"** section (I skipped the **Lumos programming** parts for now).
+
 
 ### Transferring 100,000 CKBytes Using `wallet transfer`
 
