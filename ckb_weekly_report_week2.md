@@ -16,6 +16,12 @@ This output displays a successful transaction with detailed input/output structu
 
 ![Full Transaction Details](./get_transaction_details.png) 
 
+### Confirming Cell Availability with `rpc get_live_cell`
+The command confirms that the cell at index 0 of the given transaction is **live**, with a capacity of `0x9184e72a000` and a valid lock script.
+
+![Live Cell Status - Index 0](./get_live_cell_index0.png)
+
+
 
 ### Verifying File Hash and Live Cell Data with `blake2b` and `ckb-cli`
 
