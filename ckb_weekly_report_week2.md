@@ -26,6 +26,10 @@ This shows that both output cells (index 0 and index 1) from the same transactio
 
 ![Live Cells at Index 0 and 1](./live_cells_index0_and_1.png)
 
+###  Transferring 74 CKBytes with Embedded File Data
+This command sends 74 CKBytes and attaches `HelloNervos.txt` as part of the transaction using the `--to-data-path` option.
+
+![Transfer with File Attachment](./transfer_with_hello_nervos.png)
 
 ### Verifying File Hash and Live Cell Data with `blake2b` and `ckb-cli`
 
