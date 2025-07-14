@@ -35,7 +35,7 @@
 
 - Initially installed the wrong version of Capsule (v0.10 instead of the required v0.9), which caused  issues.
   ![Capsule Version Error](./ErrorCapsulVersion.png)
--Struggled to understand binary representation and numeric literals in Rust (e.g., `8u64`, `0u128`) — especially how data types and bit widths affect behavior.
+- Struggled to understand binary representation and numeric literals in Rust (e.g., `8u64`, `0u128`) — especially how data types and bit widths affect behavior.
  ![Lab3 Error](./LAB3-Error.png)
 ![Lab5 Error](./LAb5-Error.png)
 - Learning Rust is challenging, as it is closer to the machine and introduces unique concepts like ownership — concepts not present in the languages I’m more familiar with.
