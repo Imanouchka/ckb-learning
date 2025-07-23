@@ -7,7 +7,7 @@
 ### Generate Key Pair Execution Output  
 ![LGenerate Key Pair](./W04-Generate_Key_Pair.png)
 ### Create an Address Execution Output  
-![Create an Address](./W04-Create_an_Address)
+![Create an Address](./W04-Create_an_Address.png)
 
 ### Construct a transaction to send 100 CKBytes Execution Output
 ![Construct a transaction](./W04-Construct_a_Transaction.png)
