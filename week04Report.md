@@ -18,20 +18,24 @@
 ### Send a Transaction
 ![Send a Transaction](./W04-Sign_a_Transaction_result.png)
 
+### Use the output that has already been spent in Input
+![Use the output that has already been spent in Input](./W04-0outputAlreadySpent.png)
 
+### covert one cell to 3 live cells
+![covert one cell to 3 live cells](./W04-1One cellTo3live cells.png)
+
+### Spend multiple outputs in Input
+![Spend multiple outputs in Input](./W04-2MULpuloutputin input.png)
+
+### Make the number of CKBytes in the output greater than that in the Input
+![Make the number of CKBytes in the output greater than that in the Input](./W04-3oVERFLOWTRANSACTION.png)
 
 ## What I Learned
 
-- Understood the basic structure of a project.
-- Learned about high-level functions and syscalls, and why Rust is often preferred over C in this context.
+6I’ve learned how to create and send a basic transaction using Java.
 
 ## Challenges I Faced
 
-- Initially installed the wrong version of Capsule (v0.10 instead of the required v0.9), which caused  issues.
-  ![Capsule Version Error](./ErrorCapsulVersion.png)
+- No challenges this week
 
-## Gols for Next Week
 
-- Completed the Rust programming video series on YouTube.
-- Advance further in the Rust course on Amine's Udemy account — aim to reach 50% or more.
-- Construct and successfully send my **first custom CKB transaction** from scratch.
