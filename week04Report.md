@@ -20,19 +20,19 @@
 
 ### Use the output that has already been spent in Input
 ![Use the output that has already been spent in Input](./W04-0outputAlreadySpent.png)
-
+==> Because the transaction is trying to use an outpoint that has been already spent
 ### covert one cell to 3 live cells
-![covert one cell to 3 live cells](./W04-1One cellTo3live cells.png)
-
+![covert one cell to 3 live cells](./W04-1OnecellTo3livecells.png)
+==> We had to include the transaction fees in our calculations
 ### Spend multiple outputs in Input
-![Spend multiple outputs in Input](./W04-2MULpuloutputin input.png)
-
+![Spend multiple outputs in Input](./W04-2MULpuloutputininput.png)
+==>We had to group the signatures using fulfill(tx, 0, 1).
 ### Make the number of CKBytes in the output greater than that in the Input
 ![Make the number of CKBytes in the output greater than that in the Input](./W04-3oVERFLOWTRANSACTION.png)
-
+==>Obvious error: malformed overflow transaction!
 ## What I Learned
 
-6I’ve learned how to create and send a basic transaction using Java.
+I’ve learned how to create and send a basic transaction using Java.
 
 ## Challenges I Faced
 
