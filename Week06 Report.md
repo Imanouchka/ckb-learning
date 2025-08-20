@@ -1,6 +1,6 @@
 # Week 06 Report – Imane SENNARIA (with Amine Gaddah) –August 11-17, 2025
 
-> **Note:** This week, I was in Germany with Amine and did not have my laptop with me.  
+> **Note:** This week, I was in Germany with Amine and did not have my personal computer with me.  
 > We worked together on the tasks, so the screenshots included in this report are from his environment.
 
 
