@@ -1,8 +1,7 @@
 # Week 07 Report – offCKB Project  
-**Name:** [Your Name]  
+**Name:** SENNARIA Imane
 **Period:** August 24–28, 2025  
 
----
 
 ## What I Did
 
@@ -10,8 +9,6 @@
 Successfully launched the offCKB devnet environment.
 
 ![Running Devnet](./W07-Running%20DEVNet.png)
-
----
 
 
 Faced multiple build errors related to missing targets and crates.
@@ -24,7 +21,6 @@ Faced multiple build errors related to missing targets and crates.
 ![Build Error – Client Issue](./W07-PRBCantFindClient.png)  
 ![Build Success](./W07-ProblemResolved.png)
 
----
 
 ###  Transfer & Deposit Commands
 
@@ -37,7 +33,7 @@ Successfully :
 ![Deposit Command](./W07-deposit.png)  
 ![Check Balance](./W07-balancecomande.png)
 
----
+
 
 ### Listing Accounts v
 
@@ -45,7 +41,7 @@ Listed available test accounts using `offckb accounts`.
 
 ![offCKB Accounts](./W07-offckbaccounts.png)
 
----
+
 
 ### Checked Devnet Configuration
 
@@ -53,7 +49,7 @@ Ran `offckb config list` to inspect RPC URLs, paths, and environment settings.
 
 ![Devnet Config](./W07-devlist.png)
 
----
+
 
 ## What I Learned
 
@@ -62,7 +58,7 @@ Ran `offckb config list` to inspect RPC URLs, paths, and environment settings.
 - Using the commandes for transfers, balance checks, and deposits
 - Exploring the default test accounts and configuration settings
 
----
+
 
 ##  Challenges I Faced
 
