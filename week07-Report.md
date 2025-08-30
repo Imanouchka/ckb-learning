@@ -4,12 +4,10 @@
 
 
 ## What I Did
-
 ### Running the Devnet Environment
 Successfully launched the offCKB devnet environment.
 
 ![Running Devnet](./W07-Running%20DEVNet.png)
-
 
 Faced multiple build errors related to missing targets and crates.
 
@@ -35,7 +33,7 @@ Successfully :
 
 
 
-### Listing Accounts v
+### Listing Accounts 
 
 Listed available test accounts using `offckb accounts`.
 
