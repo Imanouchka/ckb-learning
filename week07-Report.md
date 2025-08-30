@@ -1,7 +1,7 @@
 # Week 07 Report – offCKB Project  
 **Name:** SENNARIA Imane
 **Period:** August 24–28, 2025  
-
+> **Note:** Unlike last week, this time I installed offCKB on my own device and was able to run and test everything locally. All screenshots in this report are from my personal environment.
 
 ## What I Did
 ### Running the Devnet Environment
