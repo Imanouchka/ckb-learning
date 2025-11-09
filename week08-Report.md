@@ -27,8 +27,8 @@
 
 ## Important Files
 
-- `entry.rs`
-- `test.rs`
+- [`entry.rs`](./entry.rs)
+- `[`test.rs`](./test.rs)
 
 ## Results
 ![TestResults](./w8-TestRunning.png)
