@@ -8,21 +8,21 @@
   - Deployed it  
   - Tested it  
 
-## 📚 What I Learned
+## What I Learned
 - Learned the basics of **JavaScript**, since I started using it this week.
 - Revisited the entire process (build → deploy → test) using JavaScript.
 - Gained a clearer understanding of how the **off-chain workflow** works with OFFCKB.
 
-## ⚠️ Challenges I Faced
+##  Challenges I Faced
 - **Error:** I forgot to run the node, which caused the tests to fail.  
   ![Error](./WEEK09-ERROR.png)
 
 
-## 📂 Important Files
+##  Important Files
 - [`index.js`](./index.js)
 - [`Test1.mock.test.js`](./Test1.mock.test.js)
 
-## 🧪 Results
+##  Results
 
 ![Building](./WEEK09-ContractBuild.png)
 
