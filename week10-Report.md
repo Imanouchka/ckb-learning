@@ -29,16 +29,24 @@ Running tests on Devnet caused this error because **ckb-js-vm is NOT deployed on
 ---
 
 ### 4. Successfully deployed the contract on Testnet
-Since Devnet does not support JS VM, I deployed the smart contract on **Testnet** instead.
+Since ckb JS VM  is not deployed in Devnet, I deployed the smart contract on **Testnet** instead.
 
 **Command used:**
 
 offckb deploy --network testnet --target dist/testCCC.bc
+### 5. Executed tests on Testnet
 
-### 5. Verified deployment on CKB Explorer (Testnet)
+The test successfully sent a transaction: 
+
+TX Hash: 0x3b7720df175b7b2b21336041a7659d23cd0d5f781d9f2d9b483a6e84ef93704e
+
+![Testnet Data](./Week10-DeployContract.png)
+
+![Testnet testPass](./Week10-testnet-pass.png)
+### 6. Transaction detail on CKB explorer
 -  Data section
 
-The data stored in the cell is:
+The data stored in the output cell 0:
 
 0x6d79
 
@@ -49,13 +57,6 @@ Displays:
 ![Testnet Data](./Week10-TestNetExplorerTypeScript.png)
 
 
-### 6. Executed tests on Testnet
-
-The test successfully sent a transaction: 
-
-TX Hash: 0x3b7720df175b7b2b21336041a7659d23cd0d5f781d9f2d9b483a6e84ef93704e
-
-![Testnet Data](./Week10-DeployContract.png)
 
 ## Challenges I Faced
 
@@ -65,27 +66,19 @@ TX Hash: 0x3b7720df175b7b2b21336041a7659d23cd0d5f781d9f2d9b483a6e84ef93704e
 
     - ckb-debugger: command not found
 
-    - Devnet does not support ckb-js-vm
+    -The ckb-js-vm is not deployed on Devnet. We could have used Devnet we only needed to retrieve the binary file ckbfile.bc, but since the contract is already deployed on Testnet, we proceeded to deploy our construct directly on Testnet.
 
     - Some dependencies required Node 20+
 
 
-Fix used:
 
-cargo install ckb-debugger --locked
 
 ## Results
 
     - Contract built successfully
-
-    - ckb-debugger installed
-
     - Successful deployment on Testnet
-
-    - Explorer confirmed valid script + data
-
     - Testnet transaction sent successfully
-
+    - transaction detail visible on explorer
     - Identified async test issues
 
 ## Goals for Next Week
