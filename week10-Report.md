@@ -89,9 +89,7 @@ cargo install ckb-debugger --locked
     - Identified async test issues
 
 ## Goals for Next Week
-
-    Build a more advanced test scenario
-
-    Begin developing a more complex JavaScript smart contract
+-Build a more advanced test scenario
+-Begin developing a more complex JavaScript smart contract
 
 
