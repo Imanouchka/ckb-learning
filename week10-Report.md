@@ -33,7 +33,6 @@ Since Devnet does not support JS VM, I deployed the smart contract on **Testnet*
 
 **Command used:**
 
-```bash
 offckb deploy --network testnet --target dist/testCCC.bc
 
 ###5. Verified deployment on CKB Explorer (Testnet)
