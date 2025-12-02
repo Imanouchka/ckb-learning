@@ -36,29 +36,26 @@ Since Devnet does not support JS VM, I deployed the smart contract on **Testnet*
 offckb deploy --network testnet --target dist/testCCC.bc
 
 ### 5. Verified deployment on CKB Explorer (Testnet)
-✔ Data section
+-  Data section
 
 The data stored in the cell is:
 
 0x6d79
 
-
-✔ Type Script section
+![Testnet Data](./Week10-TestNetExplorer.png)
+-  Type Script section 
 
 Displays:
+![Testnet Data](./Week10-TestNetExplorerTypeScript.png)
 
-code_hash
 
-hash_type
+### 6. Executed tests on Testnet
 
-args
-
-###6. Executed tests on Testnet
-
-The test successfully sent a transaction:
+The test successfully sent a transaction: 
 
 TX Hash: 0x3b7720df175b7b2b21336041a7659d23cd0d5f781d9f2d9b483a6e84ef93704e
 
+![Testnet Data](./Week10-DeployContract.png)
 
 ## Challenges I Faced
 
